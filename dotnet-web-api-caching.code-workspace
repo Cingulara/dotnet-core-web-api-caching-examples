@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "./caching"
+		},
+		{
+			"path": "./non-caching"
+		}
+	],
+	"settings": {}
+}

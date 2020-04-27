@@ -1,0 +1,63 @@
+<number>TR-1</number><title>PERSONALLY IDENTIFIABLE INFORMATION (PII)</title>
+<statement><description>PII public notices and policies</description>
+
+<number>TR-2</number><title>SYSTEM OF RECORD NOTICES (SORNs)</title>
+<statement><description>SORN public notices and policies</description>
+
+<number>TR-3</number><title>PERSONALLY IDENTIFIABLE INFORMATION (PII)</title>
+<statement><description>Privacy Practices and POCs</description>
+
+<number>UL-1</number><title>PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization uses personally identifiable information (PII) internally only for the authorized purpose(s) identified in the Privacy Act and/or in public notices.</description></statement></controls:control>
+
+<number>UL-2</number><title>USE OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>Usage of PII</description><statement><number>UL-2a</number><description>The organization shares personally identifiable information (PII) externally, only for the authorized purposes identified in the Privacy Act and/or described in its notice(s) or for a purpose that is compatible with those purposes.
+</description>
+
+<number>AP-1</number><title>LEGALLY SHARING PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization determines and documents the legal authority that permits the sharing of personally identifiable information (PII), either generally or in support of a specific program or information system need.</description></statement></controls:control>
+<number>AP-2</number><title>PURPOSE OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization describes, in its privacy notices, the purpose(s) for which personally identifiable information (PII) is collected.</description></statement></controls:control>
+
+<number>AR-1</number><title>ORGANIZATIONAL WIDE PROGRAMS ON PRIVACY INFORMATION</title><statement>
+<description>Maintain organization-wide governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of personally identifiable information (PII) by programs and information systems.</description></statement></controls:control>
+<number>AR-2</number><title>RISK MANAGEMENT PROCESS ON PRIVACY INFORMATION</title><statement>
+<description>The organization documents a privacy risk management process which assesses the privacy risk to individuals.</description></statement></controls:control>
+<number>AR-3</number><title>CONTRACTORS AND PRIVACY INFORMATION</title><statement>
+<description>The organization establishes privacy roles, responsibilities, and requirements for contractors.</description></statement></controls:control>
+<number>AR-4</number><title>AUDITING USE OF PRIVACY INFORMATION</title><statement>
+<description>The organization defines auditing privacy controls and internal privacy policy to ensure effective implementation.</description></statement></controls:control>
+<number>AR-5</number><title>TRAINING AND AWARENESS OF PRIVACY INFORMATION</title><statement>
+<description>The organization develops, runs, and manages a comprehensive training and awareness strategy aimed at ensuring that personnel understand privacy responsibilities and procedures.</description></statement></controls:control>
+<number>AR-6</number><title>REPORTING TO OMB ON PRIVACY INFORMATION</title><statement>
+<description>The organization develops reports for the Office of Management and Budget (OMB), Congress, and other oversight bodies, as appropriate, to demonstrate accountability with specific statutory and regulatory privacy program mandates.</description></statement></controls:control>
+<number>AR-7</number><title>AUTOMATE CONTROLS ON PRIVACY INFORMATION</title><statement>
+<description>The organization designs information systems to support privacy by automating privacy controls.</description></statement></controls:control>
+<number>AR-8</number><title>REPORTING ON PRIVACY INFORMATION</title><statement>
+<description>The organization, as part of the accurate accounting of disclosures of Privacy Act information held in each system of records under its control, includes the date of each disclosure of a record.</description></statement></controls:control>
+
+<number>IP-1</number><title>AUTHORIZE COLLECTION OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization provides means, where feasible and appropriate, for individuals to authorize the collection of personally identifiable information (PII) prior to its collection.</description></statement></controls:control>
+<number>IP-2</number><title>ACCESS TO YOUR PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization provides individuals the ability to have access to their personally identifiable information (PII) maintained in its system(s) of records.</description></statement></controls:control>
+<number>IP-3</number><title>FIXING INCORRECT PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization provides a process for individuals to have inaccurate personally identifiable information (PII) maintained by the organization corrected or amended, as appropriate.</description></statement></controls:control>
+<number>IP-4</number><title>PROCESS FOR RESPONDING TO ISSUES ON USER'S PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization implements a process for responding to complaints, concerns, or questions from individuals about the organizational privacy practices.</description></statement></controls:control>
+
+<number>DI-1</number><title>CORRECTNESS OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization confirms to the greatest extent practicable upon collection or creation of personally identifiable information (PII) the accuracy, relevancy, and timeliness of that information.</description></statement></controls:control>
+<number>DI-2</number><title>INTEGRITY OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization documents processes to ensure the integrity of personally identifiable information (PII) through existing security controls and a Data Integrity Board.</description></statement></controls:control>
+
+<number>DM-1</number><title>MINIMAL COLLECTION OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization identifies the minimum personally identifiable information (PII) elements that are relevant and necessary to accomplish the legally authorized purpose of collection.</description></statement></controls:control>
+<number>DM-2</number><title>TIME PERIOD OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization defines the time period for retaining each collection of personally identifiable information (PII) that is required to fulfill the purpose(s) identified in the published privacy notice or required by law.</description></statement></controls:control>
+<number>DM-3</number><title>DEFINE USES OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization develops policies that minimize the use of personally identifiable information (PII) for testing, training, and research.</description></statement></controls:control>
+
+<number>SE-1</number><title>INVENTORY OF PERSONALLY IDENTIFIABLE INFORMATION (PII)</title><statement>
+<description>The organization establishes an inventory that contains a listing of all programs identified as collecting, using, maintaining, or sharing personally identifiable information (PII).</description></statement></controls:control>
+<number>SE-2</number><title>PRIVACY INCIDENT RESPONSE PLAN</title><statement>
+<description>The organization develops a Privacy Incident Response Plan.</description></statement></controls:control>
