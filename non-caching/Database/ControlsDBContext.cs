@@ -7,7 +7,7 @@ namespace web_api_controls.Database
 {
     public class ControlsDBContext : DbContext  
     {  
-        public ControlsDBContext(DbContextOptions<ControlsDBContext> context): base(context)  
+        public ControlsDBContext(DbContextOptions<ControlsDBContext> options): base(options)  
         {  
     
         }  

@@ -4,9 +4,7 @@
 using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -30,13 +28,12 @@ namespace web_api_controls
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // in memory database
-            services.AddDbContext<ControlsDBContext>(opt => opt.UseInMemoryDatabase());
+            services.AddDbContext<ControlsDBContext>(opt => opt.UseInMemoryDatabase(databaseName: "Controls"));
 
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Controls API", Version = "v1", 
+                c.SwaggerDoc("v1", new Info { Title = "Caching Controls API", Version = "v1", 
                     Description = "The Controls API that goes with the Medium.com article tool",
                     Contact = new Contact
                     {

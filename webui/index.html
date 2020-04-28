@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Testing Caching APIs</title>
+    </head>
+    <body>
+        <div class="text-center">
+            <h1 class="display-4">Cached Content</h1>
+            <button type="button" id="btnCachedContent" 
+                onclick="getCachedContent();" 
+                class="btn btn-success btn-sm">Call Cached</button>
+        
+            <h1 class="display-4">Non-Cached Content</h1>
+            <button type="button" id="btnNonCachedContent" 
+                onclick="getNonCachedContent();" 
+                class="btn btn-success btn-sm">Call Non-Cached</button>
+        
+        </div>
+        
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/site.js" asp-append-version="true"></script>
+        
+    </body>
+</html>

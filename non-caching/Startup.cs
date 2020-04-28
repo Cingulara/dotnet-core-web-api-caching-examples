@@ -4,9 +4,7 @@
 using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -30,13 +28,14 @@ namespace web_api_controls
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             // in memory database
-            services.AddDbContext<ControlsDBContext>(opt => opt.UseInMemoryDatabase());
+            services.AddDbContext<ControlsDBContext>(opt => opt.UseInMemoryDatabase(databaseName: "Controls"));
 
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Controls API", Version = "v1", 
+                c.SwaggerDoc("v1", new Info { Title = "Non-Caching Controls API", Version = "v1", 
                     Description = "The Controls API that goes with the Medium.com article tool",
                     Contact = new Contact
                     {
@@ -61,9 +60,6 @@ namespace web_api_controls
                         .AllowCredentials();
                     });
             });
-
-            // add service for allowing caching of responses
-            services.AddResponseCaching();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddXmlSerializerFormatters();
@@ -95,9 +91,6 @@ namespace web_api_controls
             // USE CORS
             // ********************
             app.UseCors("AllowAll");
-
-            // allow response caching directives in the API Controllers
-            app.UseResponseCaching();
 
             // setup the internal database
             var context = app.ApplicationServices.GetService<ControlsDBContext>();
